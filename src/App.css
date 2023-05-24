@@ -1,0 +1,152 @@
+
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+.app {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.app.bg1 {
+    background-image: url(/images/img.jpg);
+    border: 1px solid orangered;
+    @media (max-width: 768px) {
+        /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
+      }
+      
+      @media (max-width: 280px) {
+        /* Reglas CSS específicas para pantallas de hasta 480px de ancho */
+      }
+}
+.app.bg2 {
+    background-image: url(/images/img2.jpg);
+    border: 1px solid orangered;
+    @media (max-width: 768px) {
+        /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
+      }
+      
+      @media (max-width: 280px) {
+        /* Reglas CSS específicas para pantallas de hasta 480px de ancho */
+      }
+}
+.app.bg3 {
+    background-image: url(/images/img3.jpg);
+    border: 1px solid orangered;
+    @media (max-width: 768px) {
+        /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
+      }
+      
+      @media (max-width: 280px) {
+        /* Reglas CSS específicas para pantallas de hasta 480px de ancho */
+      }
+}
+.app.bg4 {
+    background-image: url(/images/img4.jpg);
+    border: 1px solid orangered;
+    @media (max-width: 768px) {
+        /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
+      }
+      
+      @media (max-width: 280px) {
+        /* Reglas CSS específicas para pantallas de hasta 480px de ancho */
+      }
+}
+
+.app__container {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-content: center;
+    width: min(100%, 300px);
+    padding: 0 10px;
+    gap: 20px;
+
+}
+
+.quoteBox {
+    border: 1px solid rgb(32, 193, 50);
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 768px) {
+        /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
+      }
+      
+      @media (max-width: 280px) {
+        /* Reglas CSS específicas para pantallas de hasta 480px de ancho */
+      }
+}
+.quoteBox__phrase {
+    color: #25063F;
+    font-size: 15px;
+    height: 212px;
+    width: 357px;
+    border-radius: 39px;
+    padding: 52px 20px 52px 20px;
+    background-color: rgba(178, 149, 149, 0.7);
+    margin: 25px;
+    align-content: center;
+    font-family: 'Digital Numbers', sans-serif;
+}
+.title {
+    border: 1px solid forestgreen;
+    color: #ffffff;
+    font-family: 'Digital Numbers', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    Font-family: Digital Numbers;
+    text-shadow: 10px 10px 20px rgba(160, 9, 201, 0.809);
+    position: relative;
+    top: 150px
+
+
+}
+.button {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 48.75px;
+}
+.quoteBox__btn {
+    justify-content: center;
+    background: linear-gradient(rgb(195, 195, 225), rgb(90, 86, 86));
+    width: 48.75px;
+    height: 48.75px;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    background-color: rgba(178, 149, 149, 0.7); /* Color de fondo con transparencia */
+    position: absolute;
+    top: 89.4%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-radius: 0 100% 0 0;
+}
+.half-circle{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(178, 149, 149, 0.7); /* Color de fondo con transparencia */
+    position: absolute;
+    top: 89.4%;
+    left: 43.75%;
+    transform: translate(-50%, -50%);
+    border-radius: 100% 0 0 0;
+
+}
+.footers {
+    color: #ffffff;
+    position: relative;
+    left: 15%;
+
+}
+.contain__circle {
+    border: 1px solid red;
+
+    
+}

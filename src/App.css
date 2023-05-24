@@ -11,7 +11,7 @@
 
 .app.bg1 {
     background-image: url(/images/img.jpg);
-    border: 1px solid orangered;
+    
     @media (max-width: 768px) {
         /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
       }
@@ -22,7 +22,7 @@
 }
 .app.bg2 {
     background-image: url(/images/img2.jpg);
-    border: 1px solid orangered;
+    
     @media (max-width: 768px) {
         /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
       }
@@ -33,7 +33,7 @@
 }
 .app.bg3 {
     background-image: url(/images/img3.jpg);
-    border: 1px solid orangered;
+    
     @media (max-width: 768px) {
         /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
       }
@@ -44,7 +44,7 @@
 }
 .app.bg4 {
     background-image: url(/images/img4.jpg);
-    border: 1px solid orangered;
+   
     @media (max-width: 768px) {
         /* Reglas CSS específicas para pantallas de hasta 768px de ancho */
       }
@@ -66,7 +66,7 @@
 }
 
 .quoteBox {
-    border: 1px solid rgb(32, 193, 50);
+    
     display: flex;
     flex-direction: column;
     @media (max-width: 768px) {
@@ -90,7 +90,7 @@
     font-family: 'Digital Numbers', sans-serif;
 }
 .title {
-    border: 1px solid forestgreen;
+    
     color: #ffffff;
     font-family: 'Digital Numbers', sans-serif;
     font-size: 25px;
@@ -104,7 +104,7 @@
 
 }
 .button {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     gap: 20px;
